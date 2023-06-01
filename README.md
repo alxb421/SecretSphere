@@ -17,16 +17,10 @@ part, it uses PHP.
 You can quickly setup and use SecretSphere by doing the following:
 ```
 install all pip requirements
-run launcher_debug.bat
-connect to a room
-close everything
-create a shortcut from launcher.bat to yout Desktop (option)
------
-going to make an install script so it will be easier 
-to install without much steps
+Run the install.bat script
 ```
 ## Running
-Double-click on launcher.bat or on the desktop shortcut
+Double click on the desktop shortcut
 
 ## Commands
 SecretShpere got some commands to make it easier to use.
@@ -42,3 +36,4 @@ for all members in that specific chat room.
 You can find more information about SecretSphere development in the
 [development section](https://alxb421.github.io/SecretSphere/landing/development/) of our website.
 
+A Linux version installer will be available soon
