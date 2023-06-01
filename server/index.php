@@ -53,7 +53,7 @@ if (isset($_POST['message'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ksjabber - SecretSphere roomt</title>
+    <title>room_name - SecretSphere room</title>
     <style>
         body {
             background-color: #222;
