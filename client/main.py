@@ -183,14 +183,23 @@ class ChatAppGUI:
             self.message_entry.delete(0, tk.END)
 
     def process_command(self, command):
+        message = self.message_entry.get()
         if command == "/delete":
             self.delete_messages()
         elif command == "/buzz":
             self.send_buzz()
+        elif "/ban" in command:
+            self.ban_user()
         elif command == "/exit":
             self.window.destroy()
         else:
             messagebox.showinfo("Info", "Unknown command: {}".format(command))
+
+    def ban_user(self):
+        message = self.message_entry.get()
+        message = message[5:] + "\n"
+        print(message + " has been banned")
+        response = requests.post(self.config.get('ban_location', ''), data={'message': message})
 
     def delete_messages(self):
             response = requests.post(self.config['delete_messages_location'])
