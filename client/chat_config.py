@@ -119,6 +119,7 @@ class ConfigGeneratorGUI:
             "buzz_button_location": send_messages_location + "/buzz.php",
             "join_status_location": send_messages_location + "/join.php",
             "leave_status_location": send_messages_location + "/leave.php",
+            "ban_location": send_messages_location + "/ban.php",
             "next_update_delay": int(next_update_delay),
             "chat_tabs": chat_tabs
         }
