@@ -7,9 +7,9 @@ On OS:
 python
 
 pip requirements:
-requests
-tkhtmlview
-pip install cefpython3==66.0
+pip install requests
+pip install tkhtmlview
+pip install webview
 
 ## Installing
 SecretSphere uses [Python](https://python.org) as its GUI app. For the server 
@@ -18,8 +18,7 @@ You can quickly setup and use SecretSphere by doing the following:
 ```
 install python
 install all pip requirements
-run the launcher_debug
-create user and connect to room
+run chat_config.py -> create user and connect to room
 Run the install.bat script
 ```
 ## Running
