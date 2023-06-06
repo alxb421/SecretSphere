@@ -6,10 +6,10 @@ See AUTHORS and COPYRIGHT for the list of contributors.
 On OS:
 python
 
-pip requirementsL
-tkinter
+pip requirements:
 requests
 tkhtmlview
+pip install cefpython3==66.0
 
 ## Installing
 SecretSphere uses [Python](https://python.org) as its GUI app. For the server 
