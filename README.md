@@ -3,13 +3,7 @@ This Chat was created for those who want privacy and want to be 100% sure that w
 ## Contributors
 See AUTHORS and COPYRIGHT for the list of contributors.
 ## Deps
-On OS:
-python
-
-pip requirements:
-pip install requests
-pip install tkhtmlview
-pip install webview
+python3
 
 ## Installing
 SecretSphere uses [Python](https://python.org) as its GUI app. For the server 
